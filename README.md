@@ -1,7 +1,7 @@
 # UFOs
 ## Overview
 Dana’s webpage and dynamic table are working as intended, but she’d like to provide a more in-depth analysis of UFO sightings by allowing users to filter for multiple criteria at the same time. In addition to the date, you’ll add table filters for the city, state, country, and shape. Include a write up.
-### Deliverable 1
+## Deliverable 1
 • in [index.html](https://github.com/jzebker/UFOs/blob/main/index.html), the search button has been removed and there are ***five*** options for filtering the search form
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1nobutton.png?raw=true" alt="HTML Form" width="500">
@@ -27,8 +27,8 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1webpage.png?raw=true" alt="filterTable()" width="500">
 </p>
 
-### Deliverable 2
-#### Results
+## Deliverable 2
+### Results
 **Using the website to filter the table:**
 
 (1) Scroll down to the table
@@ -44,7 +44,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 </p>
 
 (4) To reset filters reload the page or empty the search form fields
-#### Summary
+### Summary
 ***Drawbacks***
 
 • user input must match data values within the table ***exactly*** in order for it to appear in the filtered table
