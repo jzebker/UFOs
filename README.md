@@ -26,3 +26,6 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1webpage.png?raw=true" alt="filterTable()" width="500">
 </p>
+
+### Deliverable 2
+#### Results
