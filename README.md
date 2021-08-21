@@ -34,5 +34,11 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 (1) Scroll down to the table
 
 (2) Enter your search criteria in the provided form
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2emptyform.png?raw=true" alt="Empty Search Form" width="500">
+</p>
 
-(3) View your data - works with multiple filters, to reset filters reload the page or empty the search form fields
+(3) The table will update when the user enters input into the search form (works with multiple filters, to reset filters reload the page or empty the search form fields - the example below shows the table filtered by date = "1/8/2010" and state = "tx")
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2datecityfilter.png?raw=true" alt="filterTable()" width="500">
+</p>
