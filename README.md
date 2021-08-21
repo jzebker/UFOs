@@ -4,5 +4,10 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 ### Deliverable 1
 • the search button has been removed and there are ***five*** options for filtering the search form in the [index.html](https://github.com/jzebker/UFOs/blob/main/index.html) file
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1nobutton.png?raw=true" alt="HTML Form" width="400">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1nobutton.png?raw=true" alt="HTML Form" width="500">
+</p>
+
+• the event listener detects changes in each search filter
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D1eventlistener.png?raw=true" alt="Event Listener" width="500">
 </p>
