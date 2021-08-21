@@ -53,7 +53,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2inconsistentformat.png?raw=true" alt="filterTable()" width="500">
   
-  <sub align="center">Durations are not reported in a consistent format and various typos exist in the data.  Defined shapes do not always correspond to the same shape.</sub>
+  <sub text-align="center">Durations are not reported in a consistent format and various typos exist in the data.  Defined shapes do not always correspond to the same shape.</sub>
 </p>
 
 • the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
