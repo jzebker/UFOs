@@ -51,7 +51,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 • the data is difficult to search because (specifically in the **Shape**,**Duration**, and **Comments** columns) it is inconsistent in format and/or spelling
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2inconsistentformat.png?raw=true" alt="filterTable()" width="500">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2inconsistentformat.png?raw=true" alt="filterTable()" width="700">
 </p>
 <p align="center">
   <sub>Durations are not reported in a consistent format and various typos exist in the data.  Defined shapes do not always correspond to the same shape.</sub>
