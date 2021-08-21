@@ -50,9 +50,9 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 • user input must match data values within the table ***exactly*** in order for it to appear in the filtered table
 
 • the data is difficult to search because (specifically in the **Shape**,**Duration**, and **Comments** columns) it is inconsistent in format and/or spelling
-<p align="center" style="font-size:8px">
+<p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2inconsistentformat.png?raw=true" alt="filterTable()" width="500">
-  <figcaption>Durations are not reported in consistent format and various typos exist in the data.  Defined shapes do not always correspond to the same shape.</figcaption>
+  <figcaption style="font-size:8px">Durations are not reported in consistent format and various typos exist in the data.  Defined shapes do not always correspond to the same shape.</figcaption>
 </p>
 
 • the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
