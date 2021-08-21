@@ -29,7 +29,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ## Deliverable 2
 ### Results
-**Using the website to filter the table:**
+***Using the website to filter the table:***
 
 (1) Scroll down to the table
 
@@ -45,7 +45,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 (4) To reset filters reload the page or empty the search form fields
 ### Summary
-***Drawbacks***
+***Drawbacks:***
 
 • user input must match data values within the table ***exactly*** in order for it to appear in the filtered table
 
@@ -59,7 +59,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 • the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
 
-***Suggestions for further improvement/development***
+***Suggestions for further improvement/development:***
 
 • make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
 
