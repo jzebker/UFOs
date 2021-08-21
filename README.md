@@ -29,3 +29,10 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ### Deliverable 2
 #### Results
+**Using the website to filter the table:**
+
+(1) Scroll down to the table
+
+(2) Enter your search criteria in the provided form
+
+(3) View your data - works with multiple filters, to reset filters reload the page or empty the search form fields
