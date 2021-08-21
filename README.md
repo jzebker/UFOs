@@ -34,5 +34,21 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 (1) Scroll down to the table
 
 (2) Enter your search criteria in the provided form
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2emptyform.png?raw=true" alt="Empty Search Form" width="500">
+</p>
 
-(3) View your data - works with multiple filters, to reset filters reload the page or empty the search form fields
+(3) The table updates on user input into one or more of the search form fields (the example below shows the table filtered by date = "1/8/2010" and state = "tx")
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2datecityfilter.png?raw=true" alt="filterTable()" width="500">
+</p>
+
+(4) To reset filters reload the page or empty the search form fields
+#### Summary
+***Drawbacks***
+
+• user input must match data values within the table ***exactly*** in order for it to appear in the filtered table
+
+• the data is difficult to search because (specifically in the **Shape**,**Duration**, and **Comments** columns) it is inconsistent in format and/or spelling
+
+• the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
