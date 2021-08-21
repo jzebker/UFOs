@@ -58,3 +58,13 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 </p>
 
 • the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
+
+***Suggestions for further improvement/development***
+
+• make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
+
+• write a function to clean the **Duration** column and make it of a searchable format; this will allow the user to search the duration column with text matching
+
+• change the **filterTable()** function so that it finds data from ***inexact*** text matches in addition to ***exact*** text matches
+
+• make the website prettier
