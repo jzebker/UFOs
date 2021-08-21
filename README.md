@@ -31,16 +31,16 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 #### Results
 **Using the website to filter the table:**
 
-(1) Scroll down to the table
+  (1) Scroll down to the table
 
-(2) Enter your search criteria in the provided form
+  (2) Enter your search criteria in the provided form
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2emptyform.png?raw=true" alt="Empty Search Form" width="500">
 </p>
 
-(3) The table updates on user input into one or more of the search form fields (the example below shows the table filtered by date = "1/8/2010" and state = "tx")
+  (3) The table updates on user input into one or more of the search form fields (the example below shows the table filtered by date = "1/8/2010" and state = "tx")
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/D2datecityfilter.png?raw=true" alt="filterTable()" width="500">
 </p>
 
-(4) To reset filters reload the page or empty the search form fields
+  (4) To reset filters reload the page or empty the search form fields
