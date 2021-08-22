@@ -68,3 +68,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 • change the **filterTable()** function so that it finds data from ***inexact*** text matches in addition to ***exact*** text matches
 
 • make the website prettier
+
+• make an alert if the search returns no results
+
+• add start date stop date in filter
