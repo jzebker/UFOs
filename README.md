@@ -60,7 +60,8 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 • the data itself is sparse but we can't really do anything about that in this case (ex: short period of time, only from USA etc)
 
 ***Suggestions for further improvement/development:***
-• lighten and italicized placeholders in filter search input fields for better contrast between input and placeholders, an example is below
+
+• lighten and italicized placeholders in filter search input fields for better contrast between input and placeholders, an example is below:
 
 • make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
 
