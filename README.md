@@ -62,6 +62,9 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 ***Suggestions for further improvement/development:***
 
 • lighten and italicized placeholders in filter search input fields for better contrast between input and placeholders, an example is below:
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentplaceholders.png?raw=true" alt="Changed placeholders" width="375">
+</p>
 
 • make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
 
