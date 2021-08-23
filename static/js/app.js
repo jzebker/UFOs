@@ -63,7 +63,6 @@ function updateFilters() {
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
-  
   }
   
   // 7. Use this function to filter the table when data is entered.
@@ -75,7 +74,7 @@ function updateFilters() {
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
     for ([key,value] of Object.entries(filters)) {
-      filteredData = filteredData.filter(row => row[key] === value)
+      filteredData = filteredData.filter(row => row[key].startsWith(value) == true)
     };
     
     // 10. Finally, rebuild the table using the filtered data
