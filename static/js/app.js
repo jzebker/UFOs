@@ -23,6 +23,13 @@ function buildTable(data) {
   });
 }
 
+// Populate drop down list of choices for shape column
+let shapeValues = [];
+data.forEach((dataRow) =>{
+  shapeValues.push(dataRow["shape"])
+});
+console.log(new Set(shapeValues));
+
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
 
