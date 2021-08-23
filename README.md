@@ -66,7 +66,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentplaceholders.png?raw=true" alt="Changed placeholders" width="375">
 </p>
 
-• make an alert and/or display a message within the filtered table if the search returns no results, an example message is below:
+• make an alert and/or display a message within the filtered table if the search returns no results, an [example message](https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentnoresultscode.png?raw=true) is below:
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentnoresults.png?raw=true" alt="No results" width="375">
 </p>
