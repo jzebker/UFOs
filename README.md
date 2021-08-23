@@ -47,7 +47,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 ### Summary
 ***Drawbacks:***
 
-• user input must match data values within the table ***exactly*** in order for it to appear in the filtered table
+• user input must match a data value within the table ***exactly*** in order for it to appear in the filtered table
 
 • the data is difficult to search because (specifically in the **Shape**, **Duration**, and **Comments** columns) it is inconsistent in format and/or spelling
 <p align="center">
