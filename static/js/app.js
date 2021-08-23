@@ -1,5 +1,20 @@
 // from data.js
 const tableData = data;
+// clean date column to work with input type=date
+for (entry of tableData) {
+  entry['datetime'] = new Date(entry['datetime']);
+  const year = entry['datetime'].getFullYear();
+  var day = entry['datetime'].getDate();
+  if (day<10) {
+    day='0'+day;
+  };
+  var month = entry['datetime'].getMonth()+1;
+  if (month<10) {
+    month='0'+month;
+  };
+  // default date format
+  entry['datetime'] = year+"-"+month+"-"+day;
+}
 
 // get table references
 var tbody = d3.select("tbody");
@@ -21,6 +36,8 @@ function buildTable(data) {
       cell.text(val);
     });
   });
+
+  // Show a message if no results
   if (data.length==0) {
     var row = tbody.append("tr");
     let cell = row.append("td");
@@ -28,14 +45,20 @@ function buildTable(data) {
   }
 };
 
-// Populate drop down list of choices for shape column
+// Populate array of unique shapes from data
 let shapeValues = [];
 data.forEach((dataRow) =>{
   if (shapeValues.includes(dataRow["shape"]) == false) {
     shapeValues.push(dataRow["shape"])
   }
 });
-console.log((shapeValues));
+// Add the items from the array to the dropdown list
+var dropdown = document.getElementById("shapes")
+var listItems = ''
+for (shape of shapeValues) {
+  listItems += '<option value="' + shape + '" />'
+};
+dropdown.innerHTML = listItems;
 
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};

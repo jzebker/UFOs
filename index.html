@@ -47,8 +47,8 @@
               <p>Filter Search</p>
                 <ul class="list-group bg-dark">
                   <li class="filter list-group-item bg-dark">
-                    <label for="date">Enter Date</label>
-                    <input type="text" placeholder="1/10/2010" id="datetime"/>
+                    <label for="datetime">Enter Date</label>
+                    <input type="date" value="2010-01-01" min="2010-01-01" max="2010-12-31" id="datetime" />
                   </li>
                   <li class="filter list-group-item bg-dark">
                     <label for="city">Enter City</label>
@@ -64,7 +64,9 @@
                   </li>
                   <li class="filter list-group-item bg-dark">
                     <label for="shape">Enter Shape</label>
-                    <input type="text" placeholder="circle" id="shape" />                    
+                    <input list="shapes" name="shape" id="shape" />
+                    <datalist id ="shapes">
+                    </datalist>                   
                   </li>                                               
               </ul>
             </form>
