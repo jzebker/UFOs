@@ -71,7 +71,15 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentnoresults.png?raw=true" alt="No results" width="375">
 </p>
 
-• make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
+• make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options, an example is below:
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentitemsfordropdown.png?raw=true" alt="No results" width="375">
+  <sub>Find unique data values in the shapes column and add them to the dropdown menu</sub>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentdropdown.png?raw=true" alt="No results" width="375">
+</p>
 
 • find rows with ***partial*** text matches, an example using startsWith() for cities beginning with "sa" follows:
 <p align="center">
