@@ -66,6 +66,8 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentplaceholders.png?raw=true" alt="Changed placeholders" width="375">
 </p>
 
+• make an alert and/or display a message within the filtered table if the search returns no results
+
 • make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
 
 • write a function to clean the **Duration** column and make it of a searchable format; this will allow the user to search the duration column with text matching
@@ -73,7 +75,5 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 • change the **filterTable()** function so that it finds data from ***inexact*** text matches in addition to ***exact*** text matches
 
 • make the website prettier
-
-• make an alert if the search returns no results
 
 • add start date stop date in filter
