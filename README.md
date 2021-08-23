@@ -73,7 +73,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 • make a drop down menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options
 
-• find rows with ***partial*** text matches, an example using startsWith() follows:
+• find rows with ***partial*** text matches, an example using startsWith() for cities beginning with "sa" follows:
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentstartswith.png?raw=true" alt="Partial match code" width="375">
 </p>
