@@ -81,7 +81,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentpartialmatch.png?raw=true" alt="Cities starting with sa-" width="475">
 </p>
 
-• write a function to clean the **Duration** column and make it of a searchable format; this will allow the user to search the duration column with text matching
+• write a function to clean the **Duration** column and make it of a searchable format (natural language processor, regex, something); this will allow the user to search the duration column more accurately
 
 • make the website prettier
 
