@@ -61,7 +61,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ***Suggestions for further improvement/development:***
 
-• lighten and italicize placeholders in filter search input fields for better contrast between input and placeholders, an example is below:
+• lighten and italicize placeholders in filter search input fields for better contrast between input and placeholders, an [example](https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentstyletag.png?raw=true) is below:
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentplaceholders.png?raw=true" alt="Changed placeholders" width="375">
 </p>
@@ -81,7 +81,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentpartialmatch.png?raw=true" alt="Cities starting with sa-" width="475">
 </p>
 
-• write a function to clean the **Duration** column and make it of a searchable format; this will allow the user to search the duration column with text matching
+• write a function to clean the **Duration** column and make it of a searchable format (natural language processor, regex, something); this will allow the user to search the duration column more accurately
 
 • make the website prettier
 
