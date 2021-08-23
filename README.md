@@ -61,7 +61,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ***Suggestions for further improvement/development:***
 
-• lighten and italicized placeholders in filter search input fields for better contrast between input and placeholders, an example is below:
+• lighten and italicize placeholders in filter search input fields for better contrast between input and placeholders, an example is below:
 <p align="center">
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentplaceholders.png?raw=true" alt="Changed placeholders" width="375">
 </p>
