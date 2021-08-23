@@ -21,7 +21,12 @@ function buildTable(data) {
       cell.text(val);
     });
   });
-}
+  if (data.length==0) {
+    var row = tbody.append("tr");
+    let cell = row.append("td");
+    cell.text("No Results Found")
+  }
+};
 
 // Populate drop down list of choices for shape column
 let shapeValues = [];
