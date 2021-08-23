@@ -75,7 +75,8 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 • find rows with ***partial*** text matches, an example using startsWith() follows:
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentstartswith.png?raw=true" alt="No results" width="375">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentstartswith.png?raw=true" alt="Partial match code" width="375">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentpartialmatch.png?raw=true" alt="Cities starting with sa-" width="475">
 </p>
 
 • write a function to clean the **Duration** column and make it of a searchable format; this will allow the user to search the duration column with text matching
