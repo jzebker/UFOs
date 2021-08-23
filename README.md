@@ -73,21 +73,21 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 • make a dropdown menu instead of text input for the **Shape** column; this allows the user to see what he/she should be searching for in a column with limited options, an example is below:
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmenthtmllist.png?raw=true" alt="No results" width="375">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmenthtmllist.png?raw=true" alt="index.html" width="375">
 </p>
 <p align="center">
   <sup>Edit search form in index.html</sup>
 </p>
 
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentitemsfordropdown.png?raw=true" alt="No results" width="375">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentitemsfordropdown.png?raw=true" alt="List items" width="375">
 </p>
 <p align="center">
   <sup>Find unique data values in the shapes column and add them to the dropdown menu</sup>
 </p>
 
 <p align="center">
-  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentdropdown.png?raw=true" alt="No results" width="375">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentdropdown.png?raw=true" alt="Dropdown menu" width="375">
 </p>
 
 • find rows with ***partial*** text matches, an example using startsWith() for cities beginning with "sa" follows:
@@ -98,8 +98,25 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
   <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentpartialmatch.png?raw=true" alt="Cities starting with sa-" width="475">
 </p>
 
+• improve date functionality, an example method is below:
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmenthtmldate.png?raw=true" alt="index.html" width="375">
+</p>
+<p align="center">
+  <sup>Edit search form in index.html</sup>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentcleandate.png?raw=true" alt="Cleaning the dates" width="375">
+</p>
+<p align="center">
+  <sup>Clean the dates to match HTML "input type=date" output</sup>
+</p>
+
+<p align="center">
+  <img src="https://github.com/jzebker/UFOs/blob/main/readmepics/furtherdevelopmentdatepicker.png?raw=true" alt="Better date picking" width="375">
+</p>
+
 • write a function to clean the **Duration** column and make it of a searchable format (natural language processor, regex, something); this will allow the user to search the duration column more accurately
 
-• make the website prettier
-
-• add start date stop date in filter
+• general flair
